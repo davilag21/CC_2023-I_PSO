@@ -23,7 +23,7 @@ Solo mostraremos 10 resultados en esta tabla
 | 11        | 5124        | [0.9868,  0.9754] | 0.0645              |
 | 12        | 5426        | [0.9536,  0.9112] | 0.0996              |
 |           |             |                   |                     |
-| $\mu$     | 5600.66     | -                 | 0.0056             |
-| $\sigma$  | 41.058224   | -                 | 0.0024             |
+| $\mu$     | 5600.66     | -                 | 0.0025             |
+| $\sigma$  | 41.058224   | -                 | 0.0532             |
 
 Por lo que podemos estimar tiempos de ejecución de: $5600.66 \pm 41.05 \text{ms}$ para el tiempo y un error absoluto de: $0.00279 \pm 0.10384$.
