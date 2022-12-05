@@ -1,2 +1,7 @@
 # Optimización por enjambre de partículas (PSO)
-Repositorio del proyecto de PSO de concurrente
+
+Integrandes:
+David Avila García
+Santiago Licea Bcerril
+
+###Contenido
