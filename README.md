@@ -24,7 +24,7 @@
 - Comparar el tiempo de ejecución de ambas implementaciones.
 - Evaluar el error de nuestra implementación en paralelo.
 
-Para más informción sobre el algorítmo consultar la carpeta *DOCS*, en ella se encuentra el modelo matemático y documentación del modelo.
+Para más informción sobre el algorítmo consultar la carpeta *docs*, en ella se encuentra el modelo matemático y documentación del modelo.
 
 ### Modelo Secuencial
 El modelo secuencial se encuentra implementado en la carpeta docs. 
@@ -64,4 +64,4 @@ Donde obtuvimos que:
 Al poder manejar cualquier número de dimensiones, partículas, iteraciones y procesadores, la escalabilidad queda determinada únicamente a las limitantes físicas.
 
 ### Conclusiones
-El  secuencial podrá ser ligeramente más rápido que el paralelo, sin embargo, el paralelo ofrece una mejor precisión, pues cuando tenemos un solo enjambre, este se ve influenciado por la mejor posición de una sola partícula. Si tenemos múltiples enjambres, la influencia de la mejor posición en un enjambre no influencia a los demás enjambres, por lo que cada uno puede encontrar un mínimo local de manera más eficiente y el maestro
+El  secuencial parece ser bastante  más rápido que el paralelo, sin embargo, el paralelo ofrece una mejor precisión un poco mejor,aun que parace tener una mejor estabilidad el secuencial por la desviación estandar tan chica.
