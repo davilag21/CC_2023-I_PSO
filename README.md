@@ -51,16 +51,14 @@ for run in {1..478}; do mpiexec -n 12 julia mpi.jl >> resultados_mpi.txt; done;
 Ejecutará 478 veces el algorítmo paralelizado utilizando 12 procesadores donde se guardará en un archivo txt
 para posteriormente sacar la media y la desviación estandar
 
-El tiempo de ejecución de nuestro algorítmo secuencial es de $6939.83 \pm 2903.838 \text{ms}$, resultante del promedio con un error de 1.96 veces la desviación estándar.
+El tiempo de ejecución de nuestro algorítmo secuencial es de $5600.66 \pm 41.05 \text{ms}$. Siendo 41.05 la desviación estandar
 
 #### Análisis del Error
 También guardamos el valor encontrado en cada ejecución. y sabiendo que el resultado es [1,1]  podemos sacar un error absoluto real utilizando la norma de la diferencia entre el resultado encontrado y el resultado real. Es decir $\varepsilon_{abs} = \lVert(1,1) - X_{pred}\rVert$.
 
 Donde obtuvimos que:
-- Error promedio 0.07279
-- Desviación estándar 0.0649
-
-De manera general, estamos $0.07279 \pm 0.10384$ del valor real. Lo que resulta en una precisión confiable dependiendo del caso.
+- Error promedio 0.0025
+- Desviación estándar 0.0532
 
 #### Análisis de Escalabilidad
 Al poder manejar cualquier número de dimensiones, partículas, iteraciones y procesadores, la escalabilidad queda determinada únicamente a las limitantes físicas.
