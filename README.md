@@ -1,2 +1,2 @@
-# CC_2023-I_PSO
+# Optimización por enjambre de partículas (PSO)
 Repositorio del proyecto de PSO de concurrente
