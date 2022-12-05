@@ -35,7 +35,7 @@ Para observar el tiempo que tarda de forma secuencial se encuentra el documento 
 
 #### Análisis de Tiempo
 Se utilizó la libreria BenchmarkTools para mayor comodidad
-El tiempo de ejecución de nuestro algorítmo secuencial fue de $10.463 \text{ms} \pm 208.97 \text{\mu s}$.
+El tiempo de ejecución de nuestro algorítmo secuencial fue de $10.463 \text{ms} \pm 208.97 \mu$.
 
 #### Análisis de Escalabilidad
 El algorítmo puede trabajar con cualquier número de partículas deseadas, como con cualquier número de iteraciones, sin embargo, hay límites físicos, como la memoria de la computadora o el tiempo de ejecución que hay que tomar en cuenta.
