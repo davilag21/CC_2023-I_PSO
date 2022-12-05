@@ -5,7 +5,7 @@ David Avila García
 Santiago Licea Bcerril
 
 ### Contenido
-- [Particle Swarm Optimization (PSO) paralell implementation using Julia's wraper for MPI](#particle-swarm-optimization-pso-paralell-implementation-using-julias-wraper-for-mpi)
+- [Optimización por enjambre de partículas (PSO)](#particle-swarm-optimization-pso-paralell-implementation-using-julias-wraper-for-mpi)
     - [Contenido](#contenido)
     - [Objetivo:](#objetivo)
     - [Modelo Secuencial](#modelo-secuencial)
